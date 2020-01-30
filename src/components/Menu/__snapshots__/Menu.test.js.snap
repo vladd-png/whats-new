@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu  1`] = `
+<nav>
+  <h1>
+    What's 
+    <span
+      className="newsTitle"
+    >
+      New ?
+    </span>
+  </h1>
+  <ul>
+    <li
+      className="newsType"
+      onClick={[Function]}
+    >
+      <img
+        alt="news icon"
+        className="imgIcon"
+        src="loaction.png"
+      />
+      Local News
+    </li>
+    <li
+      className="newsType"
+      onClick={[Function]}
+    >
+      <img
+        alt="news icon"
+        className="imgIcon"
+        src="lightbulb.png"
+      />
+      Technology
+    </li>
+    <li
+      className="newsType"
+      onClick={[Function]}
+    >
+      <img
+        alt="news icon"
+        className="imgIcon"
+        src="tickets.png"
+      />
+      Entertainment
+    </li>
+    <li
+      className="newsType"
+      onClick={[Function]}
+    >
+      <img
+        alt="news icon"
+        className="imgIcon"
+        src="rocket.png"
+      />
+      Science
+    </li>
+    <li
+      className="newsType"
+      onClick={[Function]}
+    >
+      <img
+        alt="news icon"
+        className="imgIcon"
+        src="health.png"
+      />
+      Health
+    </li>
+  </ul>
+</nav>
+`;
