@@ -5,12 +5,15 @@ nav {
 }
 
 .newsType {
-  /* background-color: #141527; */
   height: 60px;
   width: 100%;
   text-align: left;
   border-radius: 0px 50px 50px 0px;
-  margin-top: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .newsType:hover {
@@ -21,7 +24,16 @@ nav {
   color: #FEAE01;
 }
 
+.imgIcon {
+  margin-top: 5px;
+  height: auto;
+  width: 50px;
+  margin-right: 20px;
+}
+
 h1 {
   font-size: 40px;
   margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }

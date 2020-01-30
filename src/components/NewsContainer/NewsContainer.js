@@ -3,7 +3,7 @@ import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle.js';
 
 const NewsContainer = (props) => {
-  const localNews = props.localNews.map(news => {
+  const localNews = props.newsType.map(news => {
     return <NewsArticle
       key={news.id}
       headline={news.headline}

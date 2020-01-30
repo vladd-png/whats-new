@@ -28,24 +28,24 @@ img {
 }
 
 .footerInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   background-color: #B46AF1;
-  height: 50px;
   width: 500px;
+  font-size: 20px;
 }
 
 .arrowImg {
-  height: 40px;
+  height: auto;
+  width: 80px;
 }
 
 .urlLink {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
 
 .newsDescription {
   color: black;
-  z-index: 10;
 }
