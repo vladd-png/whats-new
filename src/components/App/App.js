@@ -23,9 +23,8 @@ class App extends Component {
     }
   }
   handleChange = (newsString) => {
-    let foo = this.state.articles[newsString]
-    console.log(this.state.articles[newsString]);
-    this.setState({chosen: foo});
+    let chosenSubject = this.state.articles[newsString]
+    this.setState({chosen: chosenSubject});
   }
   render () {
     return (
