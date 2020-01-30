@@ -1,17 +1,17 @@
 import React from 'react';
 import './NewsArticle.css';
+import arrow from '../../arrow.png';
 
 const NewsArticle = (props) => {
   return (
     <section className='newsCard'>
-    <section className='imgContainer'>
-      <img src={props.img} alt={props.headline}/>
-    </section>
-      <h1 className='newsHeadline'>{props.headline}</h1>
+      <section className='imgContainer'>
+        <img src={props.img} alt={props.headline}/>
+      </section>
+      <h2 className='newsHeadline'>{props.headline}</h2>
       <p className='newsDescription'>{props.body}</p>
       <footer className='footerInfo'>
-        <a className='urlLink' href={props.link}>Link To Article</a>
-        <img className='arrowImg' src='../../../../public/arrow.png' alt='arrow icon'/>
+        <a className='urlLink' href={props.link}>Link To Article<img className='arrowImg' src={arrow} alt='arrow icon'/></a>
       </footer>
     </section>
   )
