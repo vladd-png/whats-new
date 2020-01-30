@@ -27,5 +27,4 @@ I would want to pull the data down from the local url with a fetch request, and 
 
 Further iterations would include a responsive design, down to a mobile site, as well accessibility needs for all users. 
 
-![Whats New](https://user-images.githubusercontent.com/53594458/73496516-fc383c80-4375-11ea-93e3-2de1e9abedd5.png)
-
+![Whats New](https://turingschool-examples/whats-new/raw/master/screenshots/whats-new.png)
