@@ -1,0 +1,27 @@
+nav {
+  color: white;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.newsType {
+  /* background-color: #141527; */
+  height: 60px;
+  width: 100%;
+  text-align: left;
+  border-radius: 0px 50px 50px 0px;
+  margin-top: 30px;
+}
+
+.newsType:hover {
+  background-color: #FEAE01;
+}
+
+.newsTitle {
+  color: #FEAE01;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px;
+}
