@@ -4,9 +4,6 @@ img {
   object-fit: cover;
 }
 
-.imgContainer {
-}
-
 .newsCard {
   width: 500px;
   background-color: white;
@@ -15,10 +12,6 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.newsDescription {
-  /* margin-bottom: 80px; */
 }
 
 .newsHeadline {
