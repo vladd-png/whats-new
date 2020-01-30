@@ -4,6 +4,9 @@ A React based application that displays News Articles depending on the genre sel
 
 This application was built with `create-react-app`.
 
+![Whats New](https://user-images.githubusercontent.com/53594458/73496757-884a6400-4376-11ea-88f6-963c3da092ed.gif)
+
+
 ### Set Up
 
 Clone down this repo.  
@@ -26,4 +29,3 @@ Further iterations would include a responsive design, down to a mobile site, as 
 
 ![Whats New](https://user-images.githubusercontent.com/53594458/73496516-fc383c80-4375-11ea-93e3-2de1e9abedd5.png)
 
-![Whats New](https://user-images.githubusercontent.com/53594458/73496757-884a6400-4376-11ea-88f6-963c3da092ed.gif)
