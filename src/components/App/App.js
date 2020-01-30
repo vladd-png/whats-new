@@ -26,11 +26,23 @@ class App extends Component {
     let chosenSubject = this.state.articles[newsString]
     this.setState({chosen: chosenSubject});
   }
+  updateNews = (newsString) => {
+    let searchedNews = [];
+    let allNews = [local, technology, health, science, entertainment];
+    allNews.forEach(genre => {
+      genre.forEach(article => {
+        if(article.headline.includes(newsString) || article.description.includes(newsString)) {
+          searchedNews.push(article)
+        }
+      })
+    })
+    this.setState({ chosen: searchedNews });
+  }
   render () {
     return (
       <div className="app">
         <Menu handleChange={this.handleChange}/>
-        <SearchForm/>
+        <SearchForm updateNews={this.updateNews}/>
         <NewsContainer newsType={this.state.chosen}/>
       </div>
     );
