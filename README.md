@@ -24,4 +24,6 @@ I would want to pull the data down from the local url with a fetch request, and 
 
 Further iterations would include a responsive design, down to a mobile site, as well accessibility needs for all users. 
 
-![Whats New ]
+![Whats New](https://user-images.githubusercontent.com/53594458/73496516-fc383c80-4375-11ea-93e3-2de1e9abedd5.png)
+
+![Whats New](https://user-images.githubusercontent.com/53594458/73496757-884a6400-4376-11ea-88f6-963c3da092ed.gif)
