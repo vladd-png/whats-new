@@ -13,13 +13,13 @@ class Menu extends Component {
   render() {
     return (
       <nav>
-        <h1>What's New</h1>
+        <h1>What's <span className='newsTitle'>New ?</span></h1>
         <ul>
-          <li><img src='./image.png' alt='news icon' />Local News</li>
-          <li><img src='./image.png' alt='news icon' />Technology</li>
-          <li><img src='./image.png' alt='news icon' />Entertainment</li>
-          <li><img src='./image.png' alt='news icon' />Science</li>
-          <li><img src='./image.png' alt='news icon' />Health</li>
+          <li className='newsType'><img src='./image.png' alt='news icon' />Local News</li>
+          <li className='newsType'><img src='./image.png' alt='news icon' />Technology</li>
+          <li className='newsType'><img src='./image.png' alt='news icon' />Entertainment</li>
+          <li className='newsType'><img src='./image.png' alt='news icon' />Science</li>
+          <li className='newsType'><img src='./image.png' alt='news icon' />Health</li>
         </ul>
       </nav>
     )
