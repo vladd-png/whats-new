@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should be an instance of NewsArticle component 1`] = `
+<section
+  className="newsCard"
+>
+  <section
+    className="imgContainer"
+  >
+    <img />
+  </section>
+  <h2
+    className="newsHeadline"
+  />
+  <p
+    className="newsDescription"
+  />
+  <footer
+    className="footerInfo"
+  >
+    <a
+      className="urlLink"
+    >
+      Link To Article
+      <img
+        alt="arrow icon"
+        className="arrowImg"
+        src="arrow.png"
+      />
+    </a>
+  </footer>
+</section>
+`;
