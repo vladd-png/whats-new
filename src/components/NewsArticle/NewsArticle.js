@@ -5,7 +5,7 @@ import arrow from '../../arrow.png';
 const NewsArticle = (props) => {
   return (
     <section className='newsCard'>
-      <section className='imgContainer'>
+      <section>
         <img src={props.img} alt={props.headline}/>
       </section>
       <h2 className='newsHeadline'>{props.headline}</h2>
