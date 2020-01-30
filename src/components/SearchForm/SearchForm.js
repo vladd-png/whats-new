@@ -10,8 +10,8 @@ class SearchForm extends Component {
   }
   render() {
     return (
-      <section>
-        <input type='type' name='newsSearch' placeholder='Search For News Articles Here'/>
+      <section className='newsSearch'>
+        <input type='type' placeholder='Search For News Articles Here'/>
         <button type='button'>Search Now</button>
       </section>
     )
