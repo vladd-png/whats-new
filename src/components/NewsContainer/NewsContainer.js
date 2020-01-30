@@ -5,7 +5,7 @@ import NewsArticle from '../NewsArticle/NewsArticle.js';
 const NewsContainer = (props) => {
   const newsType = props.newsType.map(news => {
     return <NewsArticle
-      key={news.id}
+      key={news.id + news.headline}
       headline={news.headline}
       body={news.description}
       img={news.img}

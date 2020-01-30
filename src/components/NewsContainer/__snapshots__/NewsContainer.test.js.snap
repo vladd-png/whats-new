@@ -8,7 +8,7 @@ exports[`NewsContainer should be an instance of NewsContainer component 1`] = `
     body="Oriental Chicken Flavor"
     headline="Ramen"
     img="ur.link"
-    key="7"
+    key="7Ramen"
     link="url.link"
   />
 </section>
