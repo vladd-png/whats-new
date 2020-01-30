@@ -1,0 +1,8 @@
+.newsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: scroll;
+  flex-wrap: wrap;
+  justify-content: center;
+}
