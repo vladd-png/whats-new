@@ -24,3 +24,4 @@ I would want to pull the data down from the local url with a fetch request, and 
 
 Further iterations would include a responsive design, down to a mobile site, as well accessibility needs for all users. 
 
+![Whats New ]
